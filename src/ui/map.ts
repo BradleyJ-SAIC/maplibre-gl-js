@@ -274,7 +274,7 @@ export type MapOptions = {
     collectResourceTiming?: boolean;
     /**
      * The max number of pixels a user can shift the mouse pointer during a click for it to be considered a valid click (as opposed to a mouse drag).
-     * @defaultValue true
+     * @defaultValue 3
      */
     clickTolerance?: number;
     /**
